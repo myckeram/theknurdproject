@@ -15,28 +15,28 @@ module.exports = {
       {
         title: 'Knurd Report',
         feed: {
-          rss: 'https://feeds.captivate.fm/knurdreport/',
+          rss: 'https://feeds.captivate.fm/theknurdproject/knurdreport/',
           apple: 'https://itunes.apple.com/podcast/knurd-report/id951366219',
         },
       },
       {
         title: 'JCast',
         feed: {
-          rss: 'https://feeds.captivate.fm/jcast/',
+          rss: 'https://feeds.captivate.fm/theknurdproject/jcast/',
           apple: 'https://itunes.apple.com/podcast/jcast/id951366272',
         },
       },
       {
         title: 'Café com Gundam',
         feed: {
-          rss: 'https://feeds.captivate.fm/cafecomgundam/',
+          rss: 'https://feeds.captivate.fm/theknurdproject/cafe-com-gundam/',
           apple: 'https://itunes.apple.com/us/podcast/caf%C3%A9-com-gundam/id1425464328',
         },
       },
       {
         title: 'Drunk Report',
         feed: {
-          rss: 'https://feeds.captivate.fm/drunkreport/',
+          rss: 'https://feeds.captivate.fm/theknurdproject/drunk-report/',
           apple: 'https://podcasts.apple.com/us/podcast/drunk-report/id1522598243'
         },
       }
