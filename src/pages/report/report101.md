@@ -1,12 +1,12 @@
 ---
-id: '398d0c70-0131-4999-a136-71778fd86ef0'
+id: '05fc2147-6491-4452-8c34-228e3d63fc36'
 title: 'Knurd Report #101'
 published_date: '2021-07-25T19:00:00.000Z'
-episode_art: 'https://artwork.captivate.fm/09806e4f-42ee-4bc0-8113-0c5769c77e3e/pXqYH_ArLfq6vwHZOX6FKlRS.jpg'
+episode_art: 'https://artwork.captivate.fm/e6c7d777-f5fd-413c-b957-24e89bcd7eba/y9JHaewvXgfE28gyCnmF8lb4.jpg'
 summary: ''
 episode_number: '101'
 slug: 'knurd-report-101'
-media_url: 'https://podcasts.captivate.fm/media/e9161d29-4892-4940-8086-cddd39205d1a/knurd101.mp3'
+media_url: 'https://podcasts.captivate.fm/media/57a32479-1447-454d-91f0-1ccb7beaf43c/knurd101.mp3'
 ---
 *   00:02:00 The Falcon and The Winter Soldier (Falcão e o Cabo Frio)
 
