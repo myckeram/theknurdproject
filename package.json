@@ -8,7 +8,7 @@
     "url": "https://github.com/darkonix/theknurdproject/issues"
   },
   "dependencies": {
-    "gatsby": "^2.13.45",
+    "gatsby": "^2.32.13",
     "gatsby-plugin-categories": "^2.3.7",
     "gatsby-plugin-feed": "^2.0.8",
     "gatsby-plugin-google-analytics": "^2.0.5",
