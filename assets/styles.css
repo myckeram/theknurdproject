@@ -1,0 +1,177 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+  font-size: smaller;
+  background: #111010;
+  color: white;
+  font-family: "Tourney", Arial, Helvetica, sans-serif;
+}
+
+header h1 {
+  font-size: 60px;
+  font-family: "Tourney", Arial, Helvetica, sans-serif;
+}
+
+header h1 a {
+  text-decoration: none;
+  color: white;
+}
+
+header p {
+  font-size: 20px;
+  letter-spacing: 6px;
+}
+
+.tourney {
+  font-family: "Tourney", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 99.5;
+}
+
+nav {
+  overflow: hidden;
+  background-color: #111010;
+  margin-bottom: 10px;
+  margin-top: 2px;
+}
+
+nav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: left;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+nav a.right {
+  float: right;
+}
+
+nav a:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+a.category-red:hover {
+  background-color: #fb2f38;
+}
+
+a.category-blue:hover {
+  background-color: #2c52b3;
+  color: black;
+}
+
+a.category-yellow:hover {
+  background-color: #fff867;
+  color: black;
+}
+
+a.category-purple:hover {
+  background-color: #a23aaf;
+  color: black;
+}
+
+a.category-green:hover {
+  background-color: #2cb364;
+  color: black;
+}
+
+a.article-link {
+  text-decoration: underline;
+  color: black;
+}
+
+.row {  
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.side {
+  -ms-flex: 20%;
+  flex: 20%;
+  background-color: white;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.side a {
+  text-decoration: none;
+  color: black;
+}
+
+main {   
+  -ms-flex: 80%;
+  flex: 80%;
+  background-color: #f1eaea;
+  padding: 20px;
+}
+
+article {
+  background-color: rgb(245, 241, 241);
+  padding: 15px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+article a {
+  cursor: pointer;
+}
+  
+.pagination a {
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+.pagination a.active {
+  background-color: black;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;} 
+
+.fakeimg {
+  background-color: #000;
+  width: 100%;
+  padding: 20px;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  background: #000;
+  color: white;
+  font-size: smaller;
+  font-style: italic;
+}
+
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  nav a {
+    float: none;
+    width: 100%;
+  }
+}
